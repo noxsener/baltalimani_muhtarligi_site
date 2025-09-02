@@ -3673,7 +3673,7 @@ body {
     font-family: Montserrat, Helvetica, Arial Narrow, Times New Roman, sans-serif
 }
 
-@media (min-width: 1280px), (max-width: 735px) {
+@media (max-width: 1280px) {
     #nav-image-and-name {
         display: none;
     }
