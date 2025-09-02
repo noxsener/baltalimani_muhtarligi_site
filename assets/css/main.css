@@ -3672,3 +3672,9 @@ body.is-preload #sidebar nav ul li {
 body {
     font-family: Montserrat, Helvetica, Arial Narrow, Times New Roman, sans-serif
 }
+
+@media (min-width: 1280px), (max-width: 735px) {
+    #nav-image-and-name {
+        display: none;
+    }
+}
