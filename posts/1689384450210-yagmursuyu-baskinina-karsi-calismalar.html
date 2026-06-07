@@ -447,42 +447,407 @@
 <div id="wrapper">
     <div>
 
-    <!-- Main Content for a Single Page/Post -->
-    <section id="main" class="wrapper">
-        <div class="inner">
-            <h1 class="major">Yağmursuyu Baskınına Karşı Çalışmalar</h1>
-            <p class="meta">10.06.2023</p>
-            <span class="image main">
-                <img loading="lazy" src="https://baltalimani-muhtarligi.com/images/072023/179681374__347243502_6372934282766566_61029157044894793_n.jpeg" alt="" />
+    <style>
+        /* ═══════════════════════════════════
+           SINGLE POST / PAGE STYLES
+           ═══════════════════════════════════ */
+
+        /* ── Article Hero ── */
+        .article-hero {
+            background: var(--navy);
+            position: relative;
+            overflow: hidden;
+            padding: 4rem 3rem 3rem;
+            border-bottom: 3px solid var(--crimson);
+        }
+
+        .article-hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image:
+                    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+            pointer-events: none;
+        }
+
+        .article-hero::after {
+            content: '';
+            position: absolute;
+            top: -60px; right: -60px;
+            width: 280px; height: 280px;
+            background: radial-gradient(circle, rgba(192,57,43,0.15) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .article-hero-inner {
+            position: relative;
+            z-index: 2;
+            max-width: 780px;
+            margin: 0 auto;
+        }
+
+        /* breadcrumb */
+        .article-breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.78rem;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 1.25rem;
+            flex-wrap: wrap;
+        }
+
+        .article-breadcrumb a {
+            color: rgba(255,255,255,0.45);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .article-breadcrumb a:hover { color: rgba(255,255,255,0.8); }
+        .article-breadcrumb .sep { color: rgba(255,255,255,0.2); font-size: 0.65rem; }
+        .article-breadcrumb .current { color: var(--gold); }
+
+        /* meta row */
+        .article-meta-row {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-bottom: 1.25rem;
+        }
+
+        .article-cat-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            background: rgba(192,57,43,0.18);
+            border: 1px solid rgba(192,57,43,0.35);
+            color: #f5a89e;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            padding: 0.3rem 0.8rem;
+            border-radius: 2px;
+            text-decoration: none;
+        }
+        .article-cat-tag:hover { background: rgba(192,57,43,0.28); color: #f5a89e; }
+
+        .article-date {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            color: rgba(255,255,255,0.45);
+            font-size: 0.78rem;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+        }
+
+        .article-hero h1 {
+            font-family: 'Playfair Display', serif !important;
+            font-size: clamp(1.6rem, 3.5vw, 2.4rem) !important;
+            font-weight: 900 !important;
+            color: #ffffff !important;
+            margin: 0 !important;
+            line-height: 1.25 !important;
+        }
+
+        /* ── Featured Image ── */
+        .article-featured-img {
+            width: 100%;
+            max-width: 780px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .article-featured-img img {
+            width: 100%;
+            max-height: 480px;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* ── Article Body ── */
+        .article-body-section {
+            background: #ffffff;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .article-body-inner {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 3rem 3rem 2.5rem;
+        }
+
+        /* featured image inside body (when no separate hero image) */
+        .article-body-inner .article-featured-img {
+            margin: 0 0 2rem;
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 4px 24px rgba(13,27,42,0.12);
+        }
+
+        /* prose content styling */
+        .article-content {
+            font-size: 1.05rem;
+            line-height: 1.85;
+            color: var(--text-body);
+        }
+
+        .article-content h1,
+        .article-content h2,
+        .article-content h3,
+        .article-content h4 {
+            font-family: 'Playfair Display', serif !important;
+            color: var(--navy) !important;
+            margin: 2rem 0 0.75rem !important;
+            line-height: 1.3 !important;
+        }
+
+        .article-content h2 { font-size: 1.55rem !important; }
+        .article-content h3 { font-size: 1.25rem !important; }
+
+        .article-content h2::after {
+            content: '';
+            display: block;
+            width: 40px; height: 2px;
+            background: var(--crimson);
+            margin-top: 0.4rem;
+            border-radius: 2px;
+        }
+
+        .article-content p { margin-bottom: 1.4rem; }
+
+        .article-content a {
+            color: var(--crimson);
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+        .article-content a:hover { color: var(--crimson-bright); }
+
+        .article-content img {
+            max-width: 100%;
+            border-radius: 4px;
+            margin: 1.5rem 0;
+            box-shadow: 0 3px 16px rgba(13,27,42,0.1);
+        }
+
+        .article-content ul,
+        .article-content ol {
+            padding-left: 1.5rem;
+            margin-bottom: 1.4rem;
+        }
+
+        .article-content li { margin-bottom: 0.4rem; line-height: 1.7; }
+
+        .article-content blockquote {
+            border-left: 4px solid var(--crimson);
+            margin: 1.5rem 0;
+            padding: 0.75rem 1.25rem;
+            background: var(--off-white);
+            border-radius: 0 4px 4px 0;
+            font-style: italic;
+            color: var(--text-muted);
+        }
+
+        .article-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+            font-size: 0.93rem;
+        }
+
+        .article-content th {
+            background: var(--navy);
+            color: #fff;
+            padding: 0.65rem 0.9rem;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .article-content td {
+            padding: 0.6rem 0.9rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .article-content tr:nth-child(even) td { background: var(--off-white); }
+
+        /* ── Share Bar ── */
+        .article-share {
+            background: var(--off-white);
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+            padding: 1.5rem 3rem;
+        }
+
+        .article-share-inner {
+            max-width: 780px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+
+        .share-label {
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-right: 0.25rem;
+        }
+
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px; height: 36px;
+            border-radius: 50%;
+            background: #fff;
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            transition: all var(--transition);
+            text-decoration: none;
+        }
+
+        .share-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .share-btn.twitter:hover  { background: #1da1f2; border-color: #1da1f2; color: #fff; }
+        .share-btn.facebook:hover { background: #1877f2; border-color: #1877f2; color: #fff; }
+        .share-btn.telegram:hover { background: #0088cc; border-color: #0088cc; color: #fff; }
+        .share-btn.whatsapp:hover { background: #25d366; border-color: #25d366; color: #fff; }
+        .share-btn.linkedin:hover { background: #0a66c2; border-color: #0a66c2; color: #fff; }
+        .share-btn.reddit:hover   { background: #ff4500; border-color: #ff4500; color: #fff; }
+
+        /* ── Back navigation ── */
+        .article-nav {
+            background: #fff;
+            padding: 2rem 3rem;
+        }
+
+        .article-nav-inner {
+            max-width: 780px;
+            margin: 0 auto;
+        }
+
+        /* ── Responsive ── */
+        @media (max-width: 900px) {
+            .article-hero { padding: 3rem 1.5rem 2.5rem; }
+            .article-body-inner { padding: 2.5rem 1.5rem; }
+            .article-share { padding: 1.25rem 1.5rem; }
+            .article-nav { padding: 1.5rem 1.5rem; }
+        }
+
+        @media (max-width: 600px) {
+            .article-hero { padding: 2.5rem 1rem 2rem; }
+            .article-body-inner { padding: 2rem 1rem; }
+            .article-share { padding: 1rem; }
+            .article-nav { padding: 1.25rem 1rem; }
+            .article-content { font-size: 1rem; }
+        }
+    </style>
+
+    <!-- ═══ ARTICLE HERO ═══ -->
+    <div class="article-hero">
+        <div class="article-hero-inner">
+
+            <!-- Breadcrumb -->
+            <div class="article-breadcrumb">
+                <a href="/"><i class="fas fa-home"></i> Ana Sayfa</a>
+
+                <!-- category crumb if post has one -->
+                
+                    <span class="sep">›</span>
+                    <a href="/categories/haber.html">Haber</a>
+                
+
+                <span class="sep">›</span>
+                <span class="current">Yağmursuyu Baskınına Karşı Çalışmalar</span>
+            </div>
+
+            <!-- Meta row: category tag + date -->
+            <div class="article-meta-row">
+                <a class="article-cat-tag"
+                   href="/categories/haber.html">
+                    <i class="fas fa-folder-open"></i>
+                    <span>Haber</span>
+                </a>
+                <span class="article-date">
+                <i class="fas fa-calendar-alt"></i>
+                <span>10 Haziran 2023</span>
             </span>
-            <div><p><img loading="lazy" src="https://baltalimani-muhtarligi.com/images/072023/179681374__347243502_6372934282766566_61029157044894793_n.jpeg" alt="" /></p>
-</div>
+            </div>
+
+            <!-- Title -->
+            <h1>Yağmursuyu Baskınına Karşı Çalışmalar</h1>
+
         </div>
-        <div class="share-container">
-            <span>Share:</span>
-            <a title="Share on Twitter" href="https://www.twitter.com/share?url=baltalimani-muhtarligi.com%2Fposts%2F1689384450210-yagmursuyu-baskinina-karsi-calismalar.html&amp;text=Ya%C4%9Fmursuyu+Bask%C4%B1n%C4%B1na+Kar%C5%9F%C4%B1+%C3%87al%C4%B1%C5%9Fmalar" target="_blank">
-                <img loading="lazy" src="https://codenfast.com/images/012021/share-twitter-64x64.webp" class="share-icon" alt="Share on Twitter">
-            </a>
-            <a title="Share on Telegram" href="https://t.me/share/url?url=baltalimani-muhtarligi.com%2Fposts%2F1689384450210-yagmursuyu-baskinina-karsi-calismalar.html&amp;text=Ya%C4%9Fmursuyu+Bask%C4%B1n%C4%B1na+Kar%C5%9F%C4%B1+%C3%87al%C4%B1%C5%9Fmalar" target="_blank">
-                <img loading="lazy" src="https://codenfast.com/images/012021/share-telegram-64x64.webp" class="share-icon" alt="Share on Telegram">
-            </a>
-            <a title="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=baltalimani-muhtarligi.com%2Fposts%2F1689384450210-yagmursuyu-baskinina-karsi-calismalar.html" target="_blank">
-                <img loading="lazy" src="https://codenfast.com/images/012021/share-facebook-64x64.webp" class="share-icon" alt="Share on Facebook">
-            </a>
-            <a title="Share on LinkedIn" href="https://www.linkedin.com/sharing/share-offsite/?url=baltalimani-muhtarligi.com%2Fposts%2F1689384450210-yagmursuyu-baskinina-karsi-calismalar.html" target="_blank">
-                <img loading="lazy" src="https://codenfast.com/images/012021/share-linkedin-64x64.webp" class="share-icon" alt="Share on LinkedIn">
-            </a>
-            <a title="Share on Pinterest" href="http://pinterest.com/pin/create/link/?url=baltalimani-muhtarligi.com%2Fposts%2F1689384450210-yagmursuyu-baskinina-karsi-calismalar.html" target="_blank">
-                <img loading="lazy" src="https://codenfast.com/images/012021/share-pinterest-64x64.webp" class="share-icon" alt="Share on Pinterest">
-            </a>
-            <a title="Share on Reddit" href="https://reddit.com/submit?url=baltalimani-muhtarligi.com%2Fposts%2F1689384450210-yagmursuyu-baskinina-karsi-calismalar.html&amp;title=Ya%C4%9Fmursuyu+Bask%C4%B1n%C4%B1na+Kar%C5%9F%C4%B1+%C3%87al%C4%B1%C5%9Fmalar" target="_blank">
-                <img loading="lazy" src="https://codenfast.com/images/012021/share-reddit-64x64.webp" class="share-icon" alt="Share on Reddit">
-            </a>
-            <a title="Share on WhatsApp" href="whatsapp://send?text=Ya%C4%9Fmursuyu+Bask%C4%B1n%C4%B1na+Kar%C5%9F%C4%B1+%C3%87al%C4%B1%C5%9Fmalar%20baltalimani-muhtarligi.com%2Fposts%2F1689384450210-yagmursuyu-baskinina-karsi-calismalar.html" data-action="share/whatsapp/share">
-                <img loading="lazy" src="https://codenfast.com/images/012021/share-whatsapp-64x64.webp" class="share-icon" alt="Share on WhatsApp">
-            </a>
+    </div>
+
+    <!-- ═══ ARTICLE BODY ═══ -->
+    <section class="article-body-section">
+        <div class="article-body-inner">
+
+            <!-- Featured image -->
+            <div class="article-featured-img reveal">
+                <img loading="lazy"
+                     src="https://baltalimani-muhtarligi.com/images/072023/179681374__347243502_6372934282766566_61029157044894793_n.jpeg"
+                     alt="Yağmursuyu Baskınına Karşı Çalışmalar" />
+            </div>
+
+            <!-- Rendered markdown content -->
+            <div class="article-content reveal reveal-delay-1"><p><img loading="lazy" src="https://baltalimani-muhtarligi.com/images/072023/179681374__347243502_6372934282766566_61029157044894793_n.jpeg" alt="" /></p>
+</div>
+
         </div>
     </section>
+
+    <!-- ═══ SHARE BAR ═══ -->
+    <div class="article-share">
+        <div class="article-share-inner">
+            <span class="share-label"><i class="fas fa-share-alt"></i> Paylaş</span>
+
+            <a class="share-btn twitter"   href="https://www.twitter.com/share?url=baltalimani-muhtarligi.com%2Fposts%2F1689384450210-yagmursuyu-baskinina-karsi-calismalar.html&amp;text=Ya%C4%9Fmursuyu+Bask%C4%B1n%C4%B1na+Kar%C5%9F%C4%B1+%C3%87al%C4%B1%C5%9Fmalar"  target="_blank" rel="noopener" title="Twitter'da Paylaş">
+                <i class="fab fa-twitter"></i></a>
+
+            <a class="share-btn facebook"  href="https://www.facebook.com/sharer/sharer.php?u=baltalimani-muhtarligi.com%2Fposts%2F1689384450210-yagmursuyu-baskinina-karsi-calismalar.html" target="_blank" rel="noopener" title="Facebook'ta Paylaş">
+                <i class="fab fa-facebook-f"></i></a>
+
+            <a class="share-btn telegram"  href="https://t.me/share/url?url=baltalimani-muhtarligi.com%2Fposts%2F1689384450210-yagmursuyu-baskinina-karsi-calismalar.html&amp;text=Ya%C4%9Fmursuyu+Bask%C4%B1n%C4%B1na+Kar%C5%9F%C4%B1+%C3%87al%C4%B1%C5%9Fmalar" target="_blank" rel="noopener" title="Telegram'da Paylaş">
+                <i class="fab fa-telegram-plane"></i></a>
+
+            <a class="share-btn whatsapp"  href="whatsapp://send?text=Ya%C4%9Fmursuyu+Bask%C4%B1n%C4%B1na+Kar%C5%9F%C4%B1+%C3%87al%C4%B1%C5%9Fmalar%20baltalimani-muhtarligi.com%2Fposts%2F1689384450210-yagmursuyu-baskinina-karsi-calismalar.html" target="_blank" rel="noopener" title="WhatsApp'ta Paylaş">
+                <i class="fab fa-whatsapp"></i></a>
+
+            <a class="share-btn linkedin"  href="https://www.linkedin.com/sharing/share-offsite/?url=baltalimani-muhtarligi.com%2Fposts%2F1689384450210-yagmursuyu-baskinina-karsi-calismalar.html" target="_blank" rel="noopener" title="LinkedIn'de Paylaş">
+                <i class="fab fa-linkedin-in"></i></a>
+
+            <a class="share-btn reddit"    href="https://reddit.com/submit?url=baltalimani-muhtarligi.com%2Fposts%2F1689384450210-yagmursuyu-baskinina-karsi-calismalar.html&amp;title=Ya%C4%9Fmursuyu+Bask%C4%B1n%C4%B1na+Kar%C5%9F%C4%B1+%C3%87al%C4%B1%C5%9Fmalar"   target="_blank" rel="noopener" title="Reddit'te Paylaş">
+                <i class="fab fa-reddit-alien"></i></a>
+        </div>
+    </div>
+
+    <!-- ═══ BACK NAVIGATION ═══ -->
+    <div class="article-nav">
+        <div class="article-nav-inner">
+            <!-- back to category if available, else back to home -->
+            <a href="/categories/haber.html"
+               class="btn btn-primary" style="background:var(--navy);border-color:var(--navy);">
+                <i class="fas fa-arrow-left"></i>
+                <span>Haber Haberlerine Dön</span>
+            </a>
+            
+        </div>
+    </div>
 
 </div>
 </div>
