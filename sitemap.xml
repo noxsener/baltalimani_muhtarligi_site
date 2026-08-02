@@ -2,13 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://baltalimani-muhtarligi.com/</loc>
-    <lastmod>2026-07-30T09:55:52.424487101+03:00</lastmod>
+    <lastmod>2026-08-02T10:43:12.177389651+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://baltalimani-muhtarligi.com/posts/sariyer-kaymakamligi-toplantisi.html</loc>
+    <lastmod>2026-08-02T10:28:15.391544+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://baltalimani-muhtarligi.com/posts/sariyer-muhtarlari-toplantimizi-yaptik.html</loc>
+    <lastmod>2026-08-02T10:22:56.408674+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://baltalimani-muhtarligi.com/posts/iski-baltalimani-biyolojik-aritma-tesisindeki-kotu-koku-cevreye-rahatsizlik-veriyor.html</loc>
+    <lastmod>2026-08-02T10:16:49.26519+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://baltalimani-muhtarligi.com/posts/baltalimani-sahilini-sabah-aksam-lagim-kokusu-basiyor.html</loc>
+    <lastmod>2026-08-02T10:10:30.324755+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://baltalimani-muhtarligi.com/posts/mahalle-muhtarindan-fen-isleri-mudurlugune-talepler-iletti.html</loc>
     <lastmod>2026-06-21T21:35:26.123342+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://baltalimani-muhtarligi.com/posts/sariyer-edebiyat-gunlerinde-kent-konseyine-yogun-ilgi.html</loc>
+    <lastmod>2026-08-02T10:06:25.650964+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -55,18 +85,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/sariyer-mahallelerinde-birliyi-toplantimiz.html</loc>
-    <lastmod>2026-06-16T00:01:47.189408+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/butcem-istanbul-projesi.html</loc>
-    <lastmod>2026-06-10T12:18:29.081749+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://baltalimani-muhtarligi.com/posts/vekilimiz-ile-toplanti.html</loc>
     <lastmod>2026-06-10T03:55:07.919744+03:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -75,6 +93,18 @@
   <url>
     <loc>https://baltalimani-muhtarligi.com/posts/sariyer-engelliler-piknigi.html</loc>
     <lastmod>2026-06-15T23:54:25.945288+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://baltalimani-muhtarligi.com/posts/sariyer-mahallelerinde-birliyi-toplantimiz.html</loc>
+    <lastmod>2026-06-16T00:01:47.189408+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://baltalimani-muhtarligi.com/posts/butcem-istanbul-projesi.html</loc>
+    <lastmod>2026-06-10T12:18:29.081749+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -127,14 +157,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/27042026-sariyer-mahalleler-birligi-toplantisi.html</loc>
-    <lastmod>2026-06-10T02:31:43.546146+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/istanbul-ilce-sorunlarini-ibb-baskan-vekillerine-ilettik.html</loc>
+    <lastmod>2026-06-10T02:37:32.05073+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/istanbul-ilce-sorunlarini-ibb-baskan-vekillerine-ilettik.html</loc>
-    <lastmod>2026-06-10T02:37:32.05073+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/27042026-sariyer-mahalleler-birligi-toplantisi.html</loc>
+    <lastmod>2026-06-10T02:31:43.546146+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -331,20 +361,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1733181038308-mahallede-calismalar-devam-ediyor.html</loc>
-    <lastmod>2025-09-02T14:17:07.791054+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://baltalimani-muhtarligi.com/posts/1747304583668-sariyer-posta.html</loc>
     <lastmod>2025-09-02T14:17:07.789052+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1719907005800-su-problemi.html</loc>
-    <lastmod>2025-09-02T14:17:07.799052+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1733181038308-mahallede-calismalar-devam-ediyor.html</loc>
+    <lastmod>2025-09-02T14:17:07.791054+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -355,14 +379,20 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1719906713121-son-3-ayda-yapilan-calismalar.html</loc>
-    <lastmod>2025-09-02T14:17:07.800052+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1719907005800-su-problemi.html</loc>
+    <lastmod>2025-09-02T14:17:07.799052+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://baltalimani-muhtarligi.com/posts/1718635623190-baltalimani-mahallesi-tapu-konusu.html</loc>
     <lastmod>2025-09-02T14:17:07.80306+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://baltalimani-muhtarligi.com/posts/1719906713121-son-3-ayda-yapilan-calismalar.html</loc>
+    <lastmod>2025-09-02T14:17:07.800052+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -445,14 +475,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1709226615409-muhtarlarin-su-kesintileri-hakkindaki-sikayeti.html</loc>
-    <lastmod>2025-09-02T14:17:07.846053+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1709226705368-sukru-genc-sariyerde-10-mahalle-daha-tapusuna-kavusuyor.html</loc>
+    <lastmod>2025-09-02T14:17:07.848052+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1709226705368-sukru-genc-sariyerde-10-mahalle-daha-tapusuna-kavusuyor.html</loc>
-    <lastmod>2025-09-02T14:17:07.848052+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1709226615409-muhtarlarin-su-kesintileri-hakkindaki-sikayeti.html</loc>
+    <lastmod>2025-09-02T14:17:07.846053+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -559,14 +589,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1705174176802-baltalimani-yasam-vadisi-2-etap-2-hafta-sonra-basliyor.html</loc>
-    <lastmod>2025-09-02T14:17:07.908054+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1705167212744-son-3-ayda-yaptirilan-merdivenler.html</loc>
+    <lastmod>2025-09-02T14:17:07.905054+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1705167212744-son-3-ayda-yaptirilan-merdivenler.html</loc>
-    <lastmod>2025-09-02T14:17:07.905054+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1705174176802-baltalimani-yasam-vadisi-2-etap-2-hafta-sonra-basliyor.html</loc>
+    <lastmod>2025-09-02T14:17:07.908054+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -643,14 +673,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1696188264352-baltalimani-muhtarligimizin-onunden-sahil-yoluna-kadar-cift-tarafli-kaldirimlarimiz-ibb-tarafindan-yenilendi.html</loc>
-    <lastmod>2025-09-02T14:17:07.959566+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1696188467283-ortanca-sokagin-sonunda-engelli-rampasi-ve-merdivenimiz-tamamlandi.html</loc>
+    <lastmod>2025-09-02T14:17:07.961567+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1696188467283-ortanca-sokagin-sonunda-engelli-rampasi-ve-merdivenimiz-tamamlandi.html</loc>
-    <lastmod>2025-09-02T14:17:07.961567+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1696188264352-baltalimani-muhtarligimizin-onunden-sahil-yoluna-kadar-cift-tarafli-kaldirimlarimiz-ibb-tarafindan-yenilendi.html</loc>
+    <lastmod>2025-09-02T14:17:07.959566+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -733,26 +763,26 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1689379091793-kenan-eserden-birkac-mahalle-fotografi.html</loc>
-    <lastmod>2025-09-02T14:17:08.008667+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://baltalimani-muhtarligi.com/posts/1689380172552-baltalimani-mahallesi-yasam-vadisi-son-hali.html</loc>
     <lastmod>2025-09-02T14:17:08.004655+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1689119030593-beyaz-sapka-minibus-hattinin-kaldirilmasi.html</loc>
-    <lastmod>2025-09-02T14:17:08.012642+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1689379091793-kenan-eserden-birkac-mahalle-fotografi.html</loc>
+    <lastmod>2025-09-02T14:17:08.008667+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://baltalimani-muhtarligi.com/posts/1689380066929-baltalimani-mahallemizin-yagmur-suyu-kanali-ve-kanalizasyon-hatlari-yeni-iski-biyolojik-aritma-tesisine-baglaniyor-emegi-gecen-herkese-tesekur-ederim.html</loc>
     <lastmod>2025-09-02T14:17:08.01067+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://baltalimani-muhtarligi.com/posts/1689119030593-beyaz-sapka-minibus-hattinin-kaldirilmasi.html</loc>
+    <lastmod>2025-09-02T14:17:08.012642+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -859,14 +889,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1682533389283-hatay-hazirliklarimiz-tamamlandi.html</loc>
-    <lastmod>2025-09-02T14:17:08.061643+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1682535091183-sariyer-muhtarlari-olarak-hataya-yardim-goturuyoruz.html</loc>
+    <lastmod>2025-09-02T14:17:08.059643+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1682535091183-sariyer-muhtarlari-olarak-hataya-yardim-goturuyoruz.html</loc>
-    <lastmod>2025-09-02T14:17:08.059643+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1682533389283-hatay-hazirliklarimiz-tamamlandi.html</loc>
+    <lastmod>2025-09-02T14:17:08.061643+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -877,14 +907,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1682533035498-sariyer-belediye-baskani-gecekondular-icin-aciklamada-bulundu.html</loc>
-    <lastmod>2025-09-02T14:17:08.065642+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1682533188296-baltalimani-yasam-vadisi-son-durum.html</loc>
+    <lastmod>2025-09-02T14:17:08.067643+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1682533188296-baltalimani-yasam-vadisi-son-durum.html</loc>
-    <lastmod>2025-09-02T14:17:08.067643+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1682533035498-sariyer-belediye-baskani-gecekondular-icin-aciklamada-bulundu.html</loc>
+    <lastmod>2025-09-02T14:17:08.065642+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1015,14 +1045,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679445055663-sariyer-posta-mulkiyet-meselesi-yine-secim-malzemesi-olacak.html</loc>
-    <lastmod>2025-09-02T14:17:08.132642+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679445046035-sariyer-posta-mulkiyet-meselesi-yine-secim-malzemesi-olacak.html</loc>
+    <lastmod>2025-09-02T14:17:08.131642+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679445046035-sariyer-posta-mulkiyet-meselesi-yine-secim-malzemesi-olacak.html</loc>
-    <lastmod>2025-09-02T14:17:08.131642+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679445055663-sariyer-posta-mulkiyet-meselesi-yine-secim-malzemesi-olacak.html</loc>
+    <lastmod>2025-09-02T14:17:08.132642+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1093,14 +1123,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679444792935-sariyer-belediye-baskani-sukru-genc-40-yillik-mulkiyet-sorunu-cozuldu.html</loc>
-    <lastmod>2025-09-02T14:17:08.165654+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679444784689-kurban-bayraminiz-mubarek-olsun.html</loc>
+    <lastmod>2025-09-02T14:17:08.168657+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679444784689-kurban-bayraminiz-mubarek-olsun.html</loc>
-    <lastmod>2025-09-02T14:17:08.168657+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679444792935-sariyer-belediye-baskani-sukru-genc-40-yillik-mulkiyet-sorunu-cozuldu.html</loc>
+    <lastmod>2025-09-02T14:17:08.165654+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1123,14 +1153,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679444734131-sariyer-mahalleler-birligi-yayini.html</loc>
-    <lastmod>2025-09-02T14:17:08.183643+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679444743085-sariyer-mahalleler-birligi-yayini.html</loc>
+    <lastmod>2025-09-02T14:17:08.186644+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679444743085-sariyer-mahalleler-birligi-yayini.html</loc>
-    <lastmod>2025-09-02T14:17:08.186644+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679444734131-sariyer-mahalleler-birligi-yayini.html</loc>
+    <lastmod>2025-09-02T14:17:08.183643+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1159,14 +1189,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679444678539-bir-merdivenimiz-daha-bitirdik.html</loc>
-    <lastmod>2025-09-02T14:17:08.197658+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679444670749-bir-merdivenimiz-daha-bitirdik.html</loc>
+    <lastmod>2025-09-02T14:17:08.195642+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679444670749-bir-merdivenimiz-daha-bitirdik.html</loc>
-    <lastmod>2025-09-02T14:17:08.195642+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679444678539-bir-merdivenimiz-daha-bitirdik.html</loc>
+    <lastmod>2025-09-02T14:17:08.197658+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1339,14 +1369,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679444300253-kaleli-sokak-ve-tatlinar-sokak-baglanti-merdiveni-yapildi.html</loc>
-    <lastmod>2025-09-02T14:17:08.254766+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679444290409-kaleli-sokak-ve-tatlinar-sokak-baglanti-merdiveni-yapildi.html</loc>
+    <lastmod>2025-09-02T14:17:08.252776+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679444290409-kaleli-sokak-ve-tatlinar-sokak-baglanti-merdiveni-yapildi.html</loc>
-    <lastmod>2025-09-02T14:17:08.252776+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679444300253-kaleli-sokak-ve-tatlinar-sokak-baglanti-merdiveni-yapildi.html</loc>
+    <lastmod>2025-09-02T14:17:08.254766+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1381,14 +1411,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679444214735-tatlinar-sokak-ile-sehit-sirri-kaleli-sokak-arasi-merdiven-tamamlandi.html</loc>
-    <lastmod>2025-09-02T14:17:08.265767+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679444207060-22-kasim-sarikamis-harekati-sehitlerini-saygi-ve-rahmet-ile-aniyoruz.html</loc>
+    <lastmod>2025-09-02T14:17:08.264779+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679444207060-22-kasim-sarikamis-harekati-sehitlerini-saygi-ve-rahmet-ile-aniyoruz.html</loc>
-    <lastmod>2025-09-02T14:17:08.264779+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679444214735-tatlinar-sokak-ile-sehit-sirri-kaleli-sokak-arasi-merdiven-tamamlandi.html</loc>
+    <lastmod>2025-09-02T14:17:08.265767+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1405,20 +1435,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679444141097-istanbulda-yikilip-tekrar-yapilacak-binalarla-ilgili-yeni-karar.html</loc>
-    <lastmod>2025-09-02T14:17:08.272765+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://baltalimani-muhtarligi.com/posts/1679444173908-istanbul-gonulluleri-duyurusu.html</loc>
     <lastmod>2025-09-02T14:17:08.284766+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679444181548-yeni-proje-icin-tarihi-okulun-yikimi-basladi.html</loc>
-    <lastmod>2025-09-02T14:17:08.282765+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1429,8 +1447,20 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679444181548-yeni-proje-icin-tarihi-okulun-yikimi-basladi.html</loc>
+    <lastmod>2025-09-02T14:17:08.282765+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://baltalimani-muhtarligi.com/posts/1679444132871-istanbulda-yikilip-tekrar-yapilacak-binalarla-ilgili-yeni-karar.html</loc>
     <lastmod>2025-09-02T14:17:08.270776+03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679444141097-istanbulda-yikilip-tekrar-yapilacak-binalarla-ilgili-yeni-karar.html</loc>
+    <lastmod>2025-09-02T14:17:08.272765+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1453,14 +1483,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679444042270-sariyerin-havasi-artik-daha-temiz.html</loc>
-    <lastmod>2025-09-02T14:17:08.292766+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679444032863-kucukdere-sokak-dere-kenarindaki-kullanilmayan-yolun-asfaltini-yaptik.html</loc>
+    <lastmod>2025-09-02T14:17:08.290784+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679444032863-kucukdere-sokak-dere-kenarindaki-kullanilmayan-yolun-asfaltini-yaptik.html</loc>
-    <lastmod>2025-09-02T14:17:08.290784+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679444042270-sariyerin-havasi-artik-daha-temiz.html</loc>
+    <lastmod>2025-09-02T14:17:08.292766+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1585,14 +1615,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679443777878-tasli-bayirda-merdiven-yapimi-basladi-calismalari-tamamlandi.html</loc>
-    <lastmod>2025-09-02T14:17:08.325774+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679443770312-tasli-bayirda-merdiven-yapimi-basladi-calismalari-tamamlandi.html</loc>
+    <lastmod>2025-09-02T14:17:08.324767+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679443770312-tasli-bayirda-merdiven-yapimi-basladi-calismalari-tamamlandi.html</loc>
-    <lastmod>2025-09-02T14:17:08.324767+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679443777878-tasli-bayirda-merdiven-yapimi-basladi-calismalari-tamamlandi.html</loc>
+    <lastmod>2025-09-02T14:17:08.325774+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1627,14 +1657,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679445761571-daha-onceki-konusmalar.html</loc>
-    <lastmod>2025-09-02T14:17:08.343773+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679445769016-daha-onceki-konusmalar.html</loc>
+    <lastmod>2025-09-02T14:17:08.337765+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679445769016-daha-onceki-konusmalar.html</loc>
-    <lastmod>2025-09-02T14:17:08.337765+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679445761571-daha-onceki-konusmalar.html</loc>
+    <lastmod>2025-09-02T14:17:08.343773+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1663,8 +1693,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679445471667-ak-parti-sariyer-ilce-baskanligi-muhtarlar-komisyonu-ziyareti.html</loc>
-    <lastmod>2025-09-02T14:17:08.355777+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679446253481-mahallemizdeki-eski-elektrik-direkleri-degistiriyoruz.html</loc>
+    <lastmod>2025-09-02T14:17:08.354767+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1675,8 +1705,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679446253481-mahallemizdeki-eski-elektrik-direkleri-degistiriyoruz.html</loc>
-    <lastmod>2025-09-02T14:17:08.354767+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679445471667-ak-parti-sariyer-ilce-baskanligi-muhtarlar-komisyonu-ziyareti.html</loc>
+    <lastmod>2025-09-02T14:17:08.355777+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1837,14 +1867,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679446594199-tapu-ve-mulkiyet-calismalari-kaldigi-yerden-devam.html</loc>
-    <lastmod>2025-09-02T14:17:08.406766+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679445705379-belediye-hizmetleri-devam-ediyor.html</loc>
+    <lastmod>2025-09-02T14:17:08.408776+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679445705379-belediye-hizmetleri-devam-ediyor.html</loc>
-    <lastmod>2025-09-02T14:17:08.408776+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679446594199-tapu-ve-mulkiyet-calismalari-kaldigi-yerden-devam.html</loc>
+    <lastmod>2025-09-02T14:17:08.406766+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1855,14 +1885,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679446511320-sariyer-yasagin-kalkacagi-gunlere-hazirlaniyor.html</loc>
-    <lastmod>2025-09-02T14:17:08.413766+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679446521180-sariyer-yasagin-kalkacagi-gunlere-hazirlaniyor.html</loc>
+    <lastmod>2025-09-02T14:17:08.411778+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679446521180-sariyer-yasagin-kalkacagi-gunlere-hazirlaniyor.html</loc>
-    <lastmod>2025-09-02T14:17:08.411778+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679446511320-sariyer-yasagin-kalkacagi-gunlere-hazirlaniyor.html</loc>
+    <lastmod>2025-09-02T14:17:08.413766+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1921,14 +1951,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679446557051-sariyerde-ortak-ses-riskli-alan-karari-kaldirilsin.html</loc>
-    <lastmod>2025-09-02T14:17:08.429767+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679445594274-baltalimani-fsm-derbent-toplu-dilekceler-cevre-ve-sehircilik-il-mudurlugune-verildi.html</loc>
+    <lastmod>2025-09-02T14:17:08.427767+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679445594274-baltalimani-fsm-derbent-toplu-dilekceler-cevre-ve-sehircilik-il-mudurlugune-verildi.html</loc>
-    <lastmod>2025-09-02T14:17:08.427767+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679446557051-sariyerde-ortak-ses-riskli-alan-karari-kaldirilsin.html</loc>
+    <lastmod>2025-09-02T14:17:08.429767+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1987,14 +2017,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679446245878-mahalleler-birliginden-kritik-toplanti.html</loc>
-    <lastmod>2025-09-02T14:17:08.449766+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679445839227-fsm-spor-kulubumuze-basarilar.html</loc>
+    <lastmod>2025-09-02T14:17:08.451767+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679445839227-fsm-spor-kulubumuze-basarilar.html</loc>
-    <lastmod>2025-09-02T14:17:08.451767+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679446245878-mahalleler-birliginden-kritik-toplanti.html</loc>
+    <lastmod>2025-09-02T14:17:08.449766+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2029,14 +2059,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679446334422-salgamcioglu-ortaokulu-ek-binasi-ile-hali-sahanin-acilis-toreni.html</loc>
-    <lastmod>2025-09-02T14:17:08.461766+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679446342219-salgamcioglu-ortaokulu-ek-binasi-ile-hali-sahanin-acilis-toreni.html</loc>
+    <lastmod>2025-09-02T14:17:08.459766+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://baltalimani-muhtarligi.com/posts/1679446342219-salgamcioglu-ortaokulu-ek-binasi-ile-hali-sahanin-acilis-toreni.html</loc>
-    <lastmod>2025-09-02T14:17:08.459766+03:00</lastmod>
+    <loc>https://baltalimani-muhtarligi.com/posts/1679446334422-salgamcioglu-ortaokulu-ek-binasi-ile-hali-sahanin-acilis-toreni.html</loc>
+    <lastmod>2025-09-02T14:17:08.461766+03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
